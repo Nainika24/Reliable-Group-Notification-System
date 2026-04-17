@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project implements a **Reliable Group Notification System using UDP sockets in Python**. Since UDP does not guarantee packet delivery by default, reliability is achieved using **sequence numbers, acknowledgements (ACK), timeout handling, and retransmission logic** at the application layer.
+This project implements a **Reliable Group Notification System using UDP sockets in Python**. Since UDP does not guarantee packet delivery by default, reliability is achieved by using **sequence numbers, acknowledgements (ACK), timeout handling, and retransmission logic** at the application layer.
 
 The system allows multiple clients to subscribe to a server and receive broadcast notifications with delivery confirmation and performance monitoring.
 
@@ -253,4 +253,4 @@ Latency increases slightly as number of subscribers increases, but reliability r
 
 ## Conclusion
 
-This project successfully converts unreliable UDP communication into a **reliable group notification system** using application-layer reliability techniques such as acknowledgements, sequence numbers, timeout detection, and retransmission. The system ensures accurate delivery while maintaining low communication overhead compared to TCP-based solutions.
+This project successfully converts unreliable UDP communication into a **reliable group notification system** using application-layer reliability techniques such as acknowledgements, sequence numbers, timeout detection, and retransmission. The system ensures accurate delivery while maintaining low communication overhead compared to TCP-based solutions, while handling unreliabilities.
